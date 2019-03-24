@@ -1,0 +1,223 @@
+/* Genereal */
+
+body {
+    font-family: Asap, Roboto, Arial, Helvetica, sans-serif;
+    color: #515151;
+    background-color: goldenrod;
+
+}
+
+h1 {
+    font-family: Asap, Roboto, Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    background-color: goldenrod;
+    text-align: center;
+    color: #525252;
+
+}
+
+h2, h3 {
+    font-family: Asap, Roboto, Arial, Helvetica, sans-serif;
+    color: #707070;
+}
+
+
+/* Navegation */
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dadada;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 0;
+    margin-left: 100px;
+    font-size: 20px;
+    width: 100%;
+    color: #555555;
+}
+
+/* Header */
+
+header {
+    background-image: url('../imgs/manutenção-de-software.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-attachment: local;
+}
+
+header p, h2 {
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #dadada;
+    padding: 10px;
+}
+
+#sobre h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Section Contact */
+
+#contato {
+    background-color: #dadada;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    padding: 5px;
+}
+
+#contato p {
+    color: #555555;
+    padding: 0;
+    font-size: 20px;
+    margin: 0px 0px 30px 0px;
+}
+
+#contato h3 {
+    color: #555555;
+    font-size: 30px;
+    padding: 0;
+    margin: 30px 0px 10px 0px;
+    font-weight: bold;
+}
+
+#contato div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+#contato div img{
+    width: 100px;
+    height: 100px;
+}
+
+#contato a {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Portfolio */
+
+#portfolio {
+    background-color: #dadada;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#portfolio div img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+#portfolio h3 {
+    padding: 0px;
+    font-size: 30px;
+    color: #555555;
+    margin: 40px 0px 10px 0px;
+    font-weight: bold;
+}
+
+#portfolio p {
+    padding: 0px;
+    font-size: 20px;
+    margin: 0px 0px 10px 0px;
+}
+
+/* Offer */
+
+#oqueoferecemos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #dadada;
+    background-color: #dadada;
+}
+
+#oqueoferecemos h3 {
+    padding: 0px;
+    font-size: 30px;
+    color: #555555;
+    margin: 40px 0px 10px 0px;
+    font-weight: bold;
+}
+#oqueoferecemos p {
+    padding: 0px;
+    font-size: 25px;
+    color: #555555;
+    margin: 0px 0px 25px 0px;
+}
+
+#oqueoferecemos div img{
+    width: 100px;
+    height: 100px;
+    margin: 2px 0px 40px 0px;
+}
+
+#oqueoferecemos div p {
+    font-size: 20px
+}
+
+/* Footer */
+
+footer {
+    background-color: goldenrod;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer a {
+    color: #f54e00;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
